@@ -1,0 +1,20 @@
+Esercizio di oggi 01/03/2025
+nome repo: db-first
+Modellare la struttura di una tabella per memorizzare 
+tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
+
+
+
+COLONNA                          TIPO                         ...
+
+ID                               int                         NOT_NULL, AUTO_INCREMENT, UNIQUE
+MARCA                            varchar                     NOT_NULL
+MODELLO                          varchar                     NOT_NULL
+KM                               int                         NOT_NULL
+DATA IMMATRICOLAZIONE            date                        NOT_NULL
+REVISIONE                        date                        NOT_NULL
+MECCANICA                        varchar                            
+CARROZZERIA                      varchar                            
+PREZZO VENDITA                   decimal[(8[,2])]            NOT_NULL 
+PREZZO DI ACQUISTO               decimal[(8[,2])]            NOT_NULL
+EX PROPRIETARIO                  varchar                            
