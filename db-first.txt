@@ -5,7 +5,7 @@ tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
 
 
 
-COLONNA                          TIPO                         ...
+COLONNA                          TIPO                        ATTRIBUTO
 
 ID                               int                         NOT_NULL, AUTO_INCREMENT, UNIQUE
 MARCA                            varchar                     NOT_NULL
